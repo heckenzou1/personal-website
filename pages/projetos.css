@@ -1,0 +1,19 @@
+.box {
+  height: 300vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#item {
+  height: 260px;
+  width: 250px;
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 20px 20px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
