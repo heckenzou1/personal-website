@@ -1,25 +1,20 @@
-.section {
+header {
   display: flex;
+  height: 3rem;
+  justify-content: space-evenly;
+  flex-direction: row;
   align-items: center;
-  height: 100%;
+  background-color: black;
 }
 
-.section ul {
+ul {
   display: flex;
-  padding: 0;
-}
-
-.section li {
-  padding: 0 2rem;
+  gap: 17px;
+  margin: 10px;
 }
 
 .spacer {
   flex: 1;
-}
-
-.section p {
-  margin-left: 10px;
-  color: white;
 }
 
 .sim {
@@ -29,22 +24,17 @@
 
 .heitor {
   font-size: 18px;
-  margin-left: 10%;
-  display: flex;
-  width: 100vh;
+  margin-left: 20px;
+  color: white;
 }
 
 @media screen and (min-width: 302px) and (max-width: 700px) {
-  .section li {
-    padding: 0 0.5rem;
-  }
-
-  .section ul {
-    margin-inline-end: 0;
-  }
-
   .sim {
     font-size: 15px;
+  }
+
+  header {
+    justify-content: space-between;
   }
 
   .heitor {

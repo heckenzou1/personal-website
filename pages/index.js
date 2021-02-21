@@ -8,7 +8,7 @@ import Meio from "./meio";
 
 export default function Home() {
   return (
-    <div id="principal" className={styles.container}>
+    <div className={styles.container}>
       <Headerzada />
       <Meio />
       <Footer />
